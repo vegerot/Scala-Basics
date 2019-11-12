@@ -54,3 +54,12 @@ runMain Caesar
 exit
 runMain Caesar
 exit
+runMain Caesar
+clear
+clean
+runMain Caesar
+clean
+runMain Caesar
+clean
+runMain Caesar
+exit
