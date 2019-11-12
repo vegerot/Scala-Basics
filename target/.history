@@ -52,3 +52,5 @@ runMain CaseClass
 exit
 runMain Caesar
 exit
+runMain Caesar
+exit

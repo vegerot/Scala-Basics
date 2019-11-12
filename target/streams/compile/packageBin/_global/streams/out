@@ -80,8 +80,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/Caesar.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PatternMatching$Notification.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/PatternMatching$Notification.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	traits.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/traits.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Traits.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/Traits.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PatternMatching$Computer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/PatternMatching$Computer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Generics$Stack.class[0m
@@ -128,8 +128,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/AbstractMembers$SeqBuffer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	matt$argh$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/matt$argh$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	traits$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/traits$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Traits$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/Traits$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Singletons$Project.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/classes/Singletons$Project.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	AbstractMembers2$SeqBuffer.class[0m
