@@ -10264,3 +10264,22 @@ WARN  no build target: /Users/maxcoplan/Documents/workspace/scala/basics/Caesar.
 INFO  skipping build import with status 'Installed'
 WARN  no build target: /Users/maxcoplan/Documents/workspace/scala/basics/Caesar.scala
 INFO  skipping build import with status 'Installed'
+INFO  shutting down Metals
+shutdown request received: build/shutdown
+Client in /Users/maxcoplan/Documents/workspace/scala/basics/.bloop triggered cancellation. Cancelling tasks...
+[0m[31m[E][0m BSP server cancelled, closing socket...
+INFO  time: initialize in 0.95s
+INFO  running embedded 'bloop bsp --protocol local --socket /var/folders/70/z9tbjlc14gs7d9nyp39rcm0r0000gn/T/bsp6301024720310250434/1o5yce8jz99rf.socket'
+INFO  skipping build import with status 'Installed'
+WARN  no build target: /Users/maxcoplan/Documents/workspace/scala/basics/build.sbt
+The server is listening for incoming connections at local:///var/folders/70/z9tbjlc14gs7d9nyp39rcm0r0000gn/T/bsp6301024720310250434/1o5yce8jz99rf.socket...
+Accepted incoming BSP client connection at local:///var/folders/70/z9tbjlc14gs7d9nyp39rcm0r0000gn/T/bsp6301024720310250434/1o5yce8jz99rf.socket
+INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/maxcoplan/Library/Caches/org.scalameta.metals/bsp.trace.json
+request received: build/initialize
+INFO  time: connected to build server in 3.69s
+BSP initialization handshake complete.
+INFO  time: imported build in 0.11s
+INFO  time: indexed workspace in 5.11s
+WARN  no build target: /Users/maxcoplan/Documents/workspace/scala/basics/build.sbt
+INFO  compiling basics-test (2 scala sources)
+INFO  time: compiled basics-test in 3.79s
