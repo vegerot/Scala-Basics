@@ -1,0 +1,170 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "basics-test",
+        "directory" : "/Users/maxcoplan/Documents/workspace/scala/basics",
+        "sources" : [
+            "/Users/maxcoplan/Documents/workspace/scala/basics/src/test/scala-2.13",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/src/test/scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/src/test/java",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/src_managed/test",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Traits.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Objects.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Circles.java",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Logger.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/NestedMethods.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/methods.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/HigherOrderFunctions.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Companions.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/matt.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/RegexPatterns.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Extractors.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/PatternMatching.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/For.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/UpperBounds.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/OJ.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/lists.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Currying.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Variances.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Tuples.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Class.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Dog.java",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Foods.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Generics.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/flatmaps.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/CaseClass.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Singletons.scala",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/Mixins.scala"
+        ],
+        "dependencies" : [
+            "basics"
+        ],
+        "classpath" : [
+            "/Users/maxcoplan/Documents/workspace/scala/basics/.bloop/basics/scala-2.13/classes",
+            "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+        ],
+        "out" : "/Users/maxcoplan/Documents/workspace/scala/basics/.bloop/basics",
+        "classesDir" : "/Users/maxcoplan/Documents/workspace/scala/basics/.bloop/basics/scala-2.13/test-classes",
+        "resources" : [
+            "/Users/maxcoplan/Documents/workspace/scala/basics/src/test/resources",
+            "/Users/maxcoplan/Documents/workspace/scala/basics/target/scala-2.13/resource_managed/test"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.13.1",
+            "options" : [
+                "-P:semanticdb:synthetics:on",
+                "-P:semanticdb:failures:warning",
+                "-P:semanticdb:sourceroot:/Users/maxcoplan/Documents/workspace/scala/basics",
+                "-Yrangepos",
+                "-Xplugin-require:semanticdb",
+                "-Xplugin:/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.1/4.2.3/semanticdb-scalac_2.13.1-4.2.3.jar"
+            ],
+            "jars" : [
+                "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.1/scala-compiler-2.13.1.jar",
+                "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar",
+                "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar",
+                "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6.jar",
+                "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.12/jansi-1.12.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/Library/Java/JavaVirtualMachines/openjdk-13.0.1.jdk/Contents/Home",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.13.1",
+                    "configurations" : "default",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.13.1",
+                    "configurations" : "optional",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/Users/maxcoplan/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

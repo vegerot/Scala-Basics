@@ -1,0 +1,54 @@
+run
+exit
+~compile
+exit
+~compile
+run
+runMain UpperBounds
+show discoveredMainClasses
+run
+quit
+exit
+~compile
+run
+exit
+run
+exirt
+exit
+run
+exit
+run
+exit
+~compile
+runMain UpperBounds
+show discoveredMains
+show discoveredMainClasses
+~runMain UpperBounds
+exit
+~compile
+runMain UpperBounds
+exit
+~compile
+clean
+~compile
+runMain LowerBounds
+~runMain LowerBounds
+clean
+~runMain LowerBounds
+ckea
+clean
+~compile
+runMain AbstractMembers
+exit
+~compile
+clean
+~compile
+runMain AbstractMembers
+runMain AbstractMembers2
+clean
+runMain AbstractMembers2
+exit
+runMain CaseClass
+exit
+runMain Caesar
+exit
