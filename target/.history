@@ -63,3 +63,70 @@ runMain Caesar
 clean
 runMain Caesar
 exit
+runMain SelfTypes
+clean
+runMain SelfTypes
+exit
+runMain SelfTypes
+clean
+runMain SelfTypes
+clean
+runMain SelfTypes
+runMain CompoundTypes
+runMain SelfTypes
+clean
+runMain SelfTypes
+exit
+runMain SelfTypes
+clean
+runMain SelfTypes
+clean
+runMain SelfTypes
+runMain ImplicitParameters
+exit
+runMain ImplicitParameters
+clean
+runMain ImplicitParameters
+clean
+runMain ImplicitConversions
+runMain -feature ImplicitConversions
+runMain ImplicitConversions -feature
+exit
+runMain ImplicitConversions -feature
+clean
+runMain ImplicitConversions -feature
+clean
+runMain ImplicitConversions -feature
+runMain PolymorphicMethods
+clean
+runMain PolymorphicMethods
+exit
+clean
+runMain PolymorphicMethods
+clean
+runMain PolymorphicMethods
+runMain TypeInference
+exit
+runMain TypeInference
+clean
+runMain TypeInference
+runMain Operators
+runMain ByNameParameters
+runMain Annotations
+runMain -deprecation Annotations
+clean
+runMain -deprecation Annotations
+runMain Annotations -deprecation
+runMain Annotations 
+set  scalacOptions+="-deprecation"
+runMain Annotations 
+clean
+runMain Annotations 
+runMain InfiniteDataStructures
+runMain FibsOnCrack
+clean
+runMain FibsOnCrack
+exit
+runMain DefaultParameterValues
+clean
+runMain DefaultParameterValues

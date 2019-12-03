@@ -1,2 +1,10 @@
-[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 2.13.0); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/maxcoplan/Documents/workspace/scala/basics/Main.java:1:1: package _root_.DefaultParameterValues does not exist[0m
+[0m[[0m[31merror[0m] [0m[0m_root_.DefaultParameterValues.Point[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/maxcoplan/Documents/workspace/scala/basics/Main.java:5:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Point[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class Main[0m
+[0m[[0m[31merror[0m] [0m[0mPoint[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/maxcoplan/Documents/workspace/scala/basics/Main.java:5:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   class Point[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class Main[0m
+[0m[[0m[31merror[0m] [0m[0mPoint[0m

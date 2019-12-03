@@ -1,0 +1,4 @@
+[debug] [basics-test] Classpath dependencies List()
+[debug] [basics-test] Dependencies from configurations List(basics)
+[debug] Bloop wrote the configuration of project 'basics-test' to '/Users/maxcoplan/Documents/workspace/scala/basics/.bloop/basics-test.json'
+[success] Generated .bloop/basics-test.json
